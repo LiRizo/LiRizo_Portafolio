@@ -1,0 +1,45 @@
+#octagon {
+  height: 45em;
+  position: relative;
+  overflow: hidden;
+  width: 45em;
+}
+
+#octagon:after {
+  background: #717580;
+  content: " ";
+  height: 100%;
+  position: absolute;
+  width: 100%;
+
+
+-webkit-transform: rotate(45deg);
+   -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+     -o-transform: rotate(45deg);
+        transform: rotate(45deg);
+
+}
+
+#octagonl {
+  height: 30em;
+  position: relative;
+  overflow: hidden;
+  width: 30em;
+}
+
+#octagonl:after {
+  background: #717580;
+  content: " ";
+  height: 100%;
+  position: absolute;
+  width: 100%;
+
+
+-webkit-transform: rotate(45deg);
+   -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+     -o-transform: rotate(45deg);
+        transform: rotate(45deg);
+
+}

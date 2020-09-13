@@ -1,0 +1,43 @@
+<!--Main Navigation-->
+<header>
+  <nav class="navbar navbar-expand-lg headerS">
+    <div class="container conS">
+<div class="container d-flex">
+  <a class="navbar mt-3" routerLink='/home'><strong><div class="row"><h3 class="meS">L</h3> <h3 class="me2S">R</h3></div></strong></a>
+</div>
+      <div class="spaceS"></div>
+      <button class="navbar-toggler" type="button" (click)="navbarCollapsed = !navbarCollapsed"
+        [attr.aria-expanded]="!navbarCollapsed" aria-controls="navbarContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" [ngbCollapse]="navbarCollapsed" id="navbarSupportedContent">
+        <div class="d-flex justify-content-end">
+          <ul class="navbar-nav ">
+            <li class="nav-item active">
+              <button class="btn optionS" routerLink='/aboutme'>Conóceme</button>
+            </li>
+            <li class="nav-item ">
+              <button class="btn optionS" routerLink='/skill'>Conocimientos</button>
+            </li>
+
+            <li class="nav-item ">
+              <button class="btn optionS" routerLink='/projects'>Portafolio</button>
+            </li>
+
+            <li class="nav-item ">
+              <button class="btn optionS" routerLink='/education'>Formación</button>
+            </li>
+            <li class="nav-item align-items-end">
+              <button class="btn optionS" routerLink='/contact'>Contacto</button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<br>
+

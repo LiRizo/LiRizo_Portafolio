@@ -1,0 +1,52 @@
+.spaceS {
+  width: 60%;
+}
+
+
+h1 {
+  font-size: 5.625rem;
+  font-weight: 900;
+  color: #EBB940;
+
+}
+
+h2 {
+  font-size: 5.4rem;
+  color: #F2D949;
+}
+
+.intro-2 {
+  background-size: cover;
+}
+
+.optionS {
+  color: #F5F5F5;
+
+  }
+
+.headerS {
+background-color: #c4c4c477;
+}
+
+
+
+.view {
+  margin-top: -56px;
+}
+
+html,
+body,
+header,
+.view {
+  height: 100%;
+}
+
+
+.nameS{
+
+  animation-name: nameS;
+  animation: bounceIn;
+  animation-duration: 1s;
+}
+@keyframes nameS {
+    }
