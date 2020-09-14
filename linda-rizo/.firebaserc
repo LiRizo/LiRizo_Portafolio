@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "li-rizo": {
+      "hosting": {
+        "linda-rizo": [
+          "li-rizo"
+        ]
+      }
+    }
+  }
+}
