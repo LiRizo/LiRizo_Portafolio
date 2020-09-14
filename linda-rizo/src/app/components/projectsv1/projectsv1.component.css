@@ -7,11 +7,11 @@
 
 .octagon:after {
   background-color:  #717580;
-  opacity: 40%;
   content: " ";
   height: 100%;
   position: absolute;
   width: 100%;
+
   box-shadow: 4px 6px 7px rgba(0, 0, 0, 0.25);
 
 -webkit-transform: rotate(45deg);
@@ -24,18 +24,20 @@
 
 
 .edimgS {
-  width: 45%;
   position: absolute;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
   z-index: 3;
+
 }
 
 
-/* img{
-  width: 100px;
-  height: 100px;
-  padding: 1px;
-} */
+img{
+display: flex;
+  width: 250px;
+  height: 200px;
+  margin: 100px;
+  box-shadow: 4px 6px 7px rgba(0, 0, 0, 0.25);
+
+}
+
+
