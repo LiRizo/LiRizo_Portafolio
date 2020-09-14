@@ -1,12 +1,13 @@
-#octagon {
+.octagon {
   height: 30em;
   position: relative;
   overflow: hidden;
   width: 30em;
 }
 
-#octagon:after {
-  background: #717580;
+.octagon:after {
+  background-color:  #717580;
+  opacity: 40%;
   content: " ";
   height: 100%;
   position: absolute;
@@ -20,3 +21,21 @@
         transform: rotate(45deg);
 
 }
+
+
+.edimgS {
+  width: 45%;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  z-index: 3;
+}
+
+
+/* img{
+  width: 100px;
+  height: 100px;
+  padding: 1px;
+} */
