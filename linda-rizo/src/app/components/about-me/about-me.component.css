@@ -1,60 +1,84 @@
-#octagon {
-  height: 45em;
+.contS{
+  width: 100vw;
+  margin: 0;
+}
+.octagon {
+  height: 20em;
   position: relative;
   overflow: hidden;
-  width: 45em;
-}
-
-#octagon:after {
-  background: #717580;
-  content: " ";
-  height: 100%;
-  position: absolute;
-  width: 100%;
-
-
--webkit-transform: rotate(45deg);
-   -moz-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-     -o-transform: rotate(45deg);
-        transform: rotate(45deg);
-
-}
-
-#octagonl {
-  height: 30em;
-  position: relative;
-  overflow: hidden;
-  width: 30em;
-}
-
-#octagonl:after {
-  background: #717580;
-  content: " ";
-  height: 100%;
-  position: absolute;
-  width: 100%;
-
-
--webkit-transform: rotate(45deg);
-   -moz-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-     -o-transform: rotate(45deg);
-        transform: rotate(45deg);
-
-}
-
-.poS {
-
-    position: absolute;
-    display: flex;
-    z-index: 3;
-}
-img{
-  display: flex;
-    width: 250px;
-
-    margin: 100px;
-    box-shadow: 4px 6px 7px rgba(0, 0, 0, 0.25);
-
+  width: 20em;
   }
+
+.octagon:after {
+  content: " ";
+  height: 100%;
+  position: absolute;
+  width: 100%;
+
+-webkit-transform: rotate(45deg);
+   -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+     -o-transform: rotate(45deg);
+        transform: rotate(45deg);
+
+}
+.octagon-2 {
+  content: " ";
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  background-size: cover;
+  background-image: url(https://github.com/LiRizo/LiRizo_Portafolio/blob/master/linda-rizo/src/assets/img/DSC_1969e.jpg?raw=true);
+  box-shadow: 4px 6px 7px rgba(0, 0, 0, 0.25);
+
+-webkit-transform: rotate(45deg);
+   -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+     -o-transform: rotate(45deg);
+        transform: rotate(45deg);
+
+}
+
+.octaCursor {
+  -webkit-transform: rotate(-45deg);
+     -moz-transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+       -o-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  cursor: pointer;
+  }
+
+/* .octagon-2:hover {
+  background-image: url(http://placekitten.com/241/241);
+  } */
+
+.font2S{
+  font-size: 2.5rem;
+}
+
+.font3S{
+  font-size: 1.5rem;
+}
+
+.fontpS{
+  font-size: 1.1rem;
+}
+
+@media screen and (min-width: 1000px){
+
+  .editS{
+    display: flex;
+    flex-direction: row;
+    margin-left: 12em;
+  }
+
+  .octagon {
+    height: 30em;
+    position: relative;
+    overflow: hidden;
+    width: 30em;
+    max-width: 100%;
+  }
+
+}
+
