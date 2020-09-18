@@ -1,12 +1,32 @@
-.contS{
-  width: 100vw;
-  margin: 0;
+/* .edimgS {
+  position: absolute;
+  display: flex;
+  z-index: 3;
+
+} */
+.tis{
+  display: flex;
+  margin: auto;
+  margin-top: 7em;
+  }
+
+
+img {
+  display:center;
+  width: 230px;
+  box-shadow: 4px 6px 7px rgba(0, 0, 0, 0.25);
+  z-index: 3;
+  margin: auto;
+}
+.iconGHs{
+  color:#EBB940;
+  font-size: 3em;
 }
 .octagon {
-  height: 20em;
+  height: 25em;
   position: relative;
   overflow: hidden;
-  width: 20em;
+  width: 25em;
   }
 
 .octagon:after {
@@ -23,12 +43,12 @@
 
 }
 .octagon-2 {
+  background-color: #71758056;
   content: " ";
   height: 100%;
   position: absolute;
   width: 100%;
   background-size: cover;
-  background-image: url(https://github.com/LiRizo/LiRizo_Portafolio/blob/master/linda-rizo/src/assets/img/DSC_1969e.jpg?raw=true);
   box-shadow: 4px 6px 7px rgba(0, 0, 0, 0.25);
 
 -webkit-transform: rotate(45deg);
@@ -51,51 +71,3 @@
 /* .octagon-2:hover {
   background-image: url(http://placekitten.com/241/241);
   } */
-
-  .octagon1-2 {
-    content: " ";
-    height: 100%;
-    position: absolute;
-    width: 100%;
-    background-size: cover;
-    background-image: url(https://github.com/LiRizo/LiRizo_Portafolio/blob/master/linda-rizo/src/assets/img/DSC_1969e.jpg?raw=true);
-    box-shadow: 4px 6px 7px rgba(0, 0, 0, 0.25);
-
-  -webkit-transform: rotate(45deg);
-     -moz-transform: rotate(45deg);
-      -ms-transform: rotate(45deg);
-       -o-transform: rotate(45deg);
-          transform: rotate(45deg);
-
-  }
-
-.font2S{
-  font-size: 2.5rem;
-}
-
-.font3S{
-  font-size: 1.5rem;
-}
-
-.fontpS{
-  font-size: 1.1rem;
-}
-
-@media screen and (min-width: 1000px){
-
-  .editS{
-    display: flex;
-    flex-direction: row;
-    margin-left: 12em;
-  }
-
-  .octagon {
-    height: 20em;
-    position: relative;
-    overflow: hidden;
-    width: 20em;
-    max-width: 100%;
-  }
-
-}
-
