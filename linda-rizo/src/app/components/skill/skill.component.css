@@ -21,7 +21,12 @@ h1{
 img{
   width: 7.4em;
 }
-
+.imgEditS{
+  width: 8em;
+}
+.imgEditS1{
+  width: 6.4em;
+}
 
 @media screen and (min-width: 1000px){
 
@@ -29,16 +34,17 @@ img{
   display: flex;
   align-items: center;
 }
- /*  h1{
 
-    font-size: 6rem;
-    } */
-    .editFontS{
-      width: 8em;
-    }
-
-  .logoS{
-    width: 8em;
+   .logoS{
+    width: 10.2em;
+    height: 12em;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  img{
+    width: 7.4em;
   }
 
 }

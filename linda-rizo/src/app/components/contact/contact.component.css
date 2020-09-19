@@ -1,0 +1,11 @@
+.editFontS{
+  width: 16em;
+  height: 12em;
+  display: flex;
+text-align: center;
+flex-direction: column;
+}
+.iconGHs{
+  color:#EBB940;
+  font-size: 10em;
+}
