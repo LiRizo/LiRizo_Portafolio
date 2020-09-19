@@ -1,18 +1,19 @@
-/* .edimgS {
-  position: absolute;
+.imgS {
   display: flex;
+  width: 230px;
+  box-shadow: 4px 6px 7px rgba(0, 0, 0, 0.25);
   z-index: 3;
-
-} */
-.tis{
-  display: flex;
   margin: auto;
-  margin-top: 7em;
-  }
-
-
-img {
-  display:center;
+}
+.imgS1 {
+  display: flex;
+  width: 230px;
+  box-shadow: 4px 6px 7px rgba(0, 0, 0, 0.25);
+  z-index: 3;
+  margin: auto;
+}
+.imgS2 {
+  display: flex;
   width: 230px;
   box-shadow: 4px 6px 7px rgba(0, 0, 0, 0.25);
   z-index: 3;
@@ -22,52 +23,29 @@ img {
   color:#EBB940;
   font-size: 3em;
 }
-.octagon {
-  height: 25em;
-  position: relative;
-  overflow: hidden;
-  width: 25em;
+@media screen and (min-width: 1000px){
+
+  .imgS {
+    display: flex;
+    width: 300px;
+    box-shadow: 4px 6px 7px rgba(0, 0, 0, 0.25);
+    z-index: 3;
+    margin: auto;
+  }
+  .imgS1 {
+    display: flex;
+    width: 300px;
+    box-shadow: 4px 6px 7px rgba(0, 0, 0, 0.25);
+    z-index: 3;
+    margin: auto;
+  }
+  .imgS2 {
+    display: flex;
+    width: 300px;
+    box-shadow: 4px 6px 7px rgba(0, 0, 0, 0.25);
+    z-index: 3;
+    margin: auto;
   }
 
-.octagon:after {
-  content: " ";
-  height: 100%;
-  position: absolute;
-  width: 100%;
-
--webkit-transform: rotate(45deg);
-   -moz-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-     -o-transform: rotate(45deg);
-        transform: rotate(45deg);
 
 }
-.octagon-2 {
-  background-color: #71758056;
-  content: " ";
-  height: 100%;
-  position: absolute;
-  width: 100%;
-  background-size: cover;
-  box-shadow: 4px 6px 7px rgba(0, 0, 0, 0.25);
-
--webkit-transform: rotate(45deg);
-   -moz-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-     -o-transform: rotate(45deg);
-        transform: rotate(45deg);
-
-}
-
-.octaCursor {
-  -webkit-transform: rotate(-45deg);
-     -moz-transform: rotate(-45deg);
-      -ms-transform: rotate(-45deg);
-       -o-transform: rotate(-45deg);
-          transform: rotate(-45deg);
-  cursor: pointer;
-  }
-
-/* .octagon-2:hover {
-  background-image: url(http://placekitten.com/241/241);
-  } */
