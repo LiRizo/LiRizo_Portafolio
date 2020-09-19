@@ -1,9 +1,44 @@
-.editS{
+.editFontS{
+  width: 10em;
+  height: 12em;
   display: flex;
-  flex-direction: row;
+text-align: center;
+flex-direction: column;
+}
+h1{
+  font-size: 7rem;
 
+  }
+
+.logoS{
+  width: 10em;
+  height: 12em;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+}
+img{
+  width: 7.4em;
 }
 
-h1{
-  font-size: 5rem;
+
+@media screen and (min-width: 1000px){
+
+.editS{
+  display: flex;
+  align-items: center;
+}
+ /*  h1{
+
+    font-size: 6rem;
+    } */
+    .editFontS{
+      width: 8em;
+    }
+
+  .logoS{
+    width: 8em;
   }
+
+}
