@@ -1,0 +1,9 @@
+.editS{
+  display: flex;
+  flex-direction: row;
+
+}
+
+h1{
+  font-size: 5rem;
+  }
