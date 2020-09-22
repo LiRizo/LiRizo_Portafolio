@@ -8,7 +8,7 @@
       <button class="navbar-toggler" type="button" (click)="navbarCollapsed = !navbarCollapsed"
         [attr.aria-expanded]="!navbarCollapsed" aria-controls="navbarContent" aria-expanded="false"
         aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+        <span class="iconS"><i class="fas fa-ellipsis-v"></i></span>
       </button>
 
       <div class="collapse navbar-collapse" [ngbCollapse]="navbarCollapsed" id="navbarSupportedContent">
@@ -38,18 +38,21 @@
     <div class="full-bg-img">
       <div class="mask rgba-black-strong flex-center">
         <div class="container">
-          <div class="white-text text-center wow fadeInUp">
-            <h3 class="mt-3"></h3>
-            <br>
-            <br>
-            <div class="animate__animated animate__bounceIn nameS">
-              <div class="row mt-5">
-                <h2 class="mt-5" style="color:#F5F5F5;">Linda </h2>
-                <h2 class="mt-5 ml-3"> Canaima</h2>
+          <div class="text-center wow fadeInUp">
+
+            <div class="d-flex justify-content-center mt-5">
+              <div class="animate__animated animate__bounceIn nameS">
+                <div class="row mt-5">
+                  <h2 class="mt-5" style="color:#F5F5F5;">Linda </h2>
+                  <h2 class="mt-5 ml-3"> Canaima</h2>
+                </div>
+                <div class="lastnameS">
+                  <h1 class="mt-3">Rizo Contreras</h1>
+                </div>
+
               </div>
-              <br>
-              <h1 class="mt-5">Rizo Contreras</h1>
             </div>
+
           </div>
         </div>
       </div>
@@ -65,7 +68,6 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-
         <h1></h1>
 
       </div>

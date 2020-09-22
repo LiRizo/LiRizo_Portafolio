@@ -1,11 +1,34 @@
 .editFontS{
-  width: 16em;
+  width: 8em;
   height: 12em;
   display: flex;
 text-align: center;
 flex-direction: column;
+margin: auto;
 }
 .iconGHs{
   color:#EBB940;
+  font-size: 7em;
+}
+.cvS{
+font-size: 7em;
+}
+@media screen and (min-width: 1000px){
+
+  .editFontS{
+    width: 16em;
+    height: 12em;
+    display: flex;
+  text-align: center;
+  flex-direction: column;
+  margin: auto;
+  }
+  .iconGHs{
+    color:#EBB940;
+    font-size: 10em;
+  }
+  .cvS{
   font-size: 10em;
+  }
+
 }

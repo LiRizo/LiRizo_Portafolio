@@ -2,16 +2,22 @@
   width: 60%;
 }
 
+/* .editFontS{
+  width: 100vw;
+   display: flex;
+text-align: center;
+flex-direction: column;
+} */
 
 h1 {
-  font-size: 5.625rem;
+  font-size: 2rem;
   font-weight: 900;
   color: #EBB940;
 
 }
 
 h2 {
-  font-size: 5.4rem;
+  font-size: 2rem;
   color: #F2D949;
 }
 
@@ -49,4 +55,30 @@ header,
   animation-duration: 1s;
 }
 @keyframes nameS {
+    }
+    .iconS{
+      color: #EBB940;
+      z-index: 3;
+    }
+
+    @media screen and (min-width: 1000px){
+
+      h1 {
+        font-size: 5.625rem;
+        font-weight: 900;
+        color: #EBB940;
+
+      }
+
+      h2 {
+        font-size: 5.4rem;
+        color: #F2D949;
+      }
+
+      .lastnameS{
+        width: 80em;
+        height: 10em;
+        display: flex;
+        align-items: center;
+      }
     }

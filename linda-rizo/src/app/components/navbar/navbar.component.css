@@ -20,3 +20,7 @@ color:#EBB940;
 background-color: #c4c4c477;
 height: 100%;
 }
+.iconS{
+  color: #EBB940;
+  z-index: 3;
+}

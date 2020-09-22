@@ -23,9 +23,15 @@
   color:#EBB940;
   font-size: 3em;
 }
+
+.titleS{
+font-size: 2em;
+font-weight: 900;
+
+}
 @media screen and (min-width: 1000px){
 
-/*   .imgS {
+  .imgS {
     display: flex;
     width: 300px;
     box-shadow: 4px 6px 7px rgba(0, 0, 0, 0.25);
@@ -47,7 +53,7 @@
     margin: auto;
   }
 
-   */
+
 
    .rowEditS{
      display: flex;
